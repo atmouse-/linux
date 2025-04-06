@@ -570,7 +570,7 @@ int trilin_dp_encoder_atomic_adjust_mode(struct drm_display_mode *mode,
   	else
   		adjusted_mode->flags |= DRM_MODE_FLAG_PHSYNC;
 
-	pr_info("adjust_mode flags: 0x%0x", adjusted_mode->flags);
+	pr_debug("adjust_mode flags: 0x%0x", adjusted_mode->flags);
 #endif
 	return 0;
 }
