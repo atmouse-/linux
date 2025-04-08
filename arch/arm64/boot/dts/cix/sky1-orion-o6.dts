@@ -1044,7 +1044,7 @@
 	pinctrl-0 = <&pinctrl_hda>;
 	pdb-gpios = <&fch_gpio3 5 GPIO_ACTIVE_HIGH>;
 	memory-region = <&audio_alsa>;
-	status = "okay";
+	status = "disabled";
 };
 
 &sensorhub {
